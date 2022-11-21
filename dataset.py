@@ -62,7 +62,7 @@ scaled_df = pd.DataFrame(scaled, columns=data_normalized.columns)
 
 ventana_mediciones = []
 valores = np.empty(0)
-mediciones = np.empty([4320,33])
+mediciones = np.empty([4320, 33])
 lista_valores = []
 
 for i, pos in c7.iterrows():
