@@ -43,9 +43,9 @@ for i in bp1:
     bp2.append(x)
 
 benper = pd.DataFrame(bp2, columns=['Fecha',	'Hora',	'Valor_BencenoyPrecursores',	'Archivo'])
-c7 = pd.DataFrame(dc2, columns=['Fecha',	'Hora',	'Contenido_C7_Total',	'archivo','asd'])
+c7 = pd.DataFrame(dc2, columns=['Fecha',	'Hora',	'Contenido_C7_Total',	'archivo'])
 benper.drop(['Archivo'], axis=1, inplace=True)
-c7.drop(['archivo','asd'], axis=1, inplace=True)
+c7.drop(['archivo'], axis=1, inplace=True)
 
 data = pd.DataFrame(d2, columns=['TimeStamp', 'tdc_phd.pi_21030', 'tdc_phd.pic_21034', 'tdc_phd.pi_21035', 'tdc_phd.ti_21046', 'tdc_phd.tic_21047', 'tdc_phd.ti_21048', 'tdc_phd.ti_21050', 'tdc_phd.ti_21049', 'tdc_phd.tic_21051', 'tdc_phd.ti_21052', 'tdc_phd.li_21018', 'tdc_phd.lic_21022', 'tdc_phd.fic_21018', 'tdc_phd.fic_24002', 'tdc_phd.fi_21019', 'tdc_phd.fic_22001', 'tdc_phd.fi_21020', 'STMS_DI_21004', 'STMS_LAB_PM_2209-F', 'STMS_PM_2104F', 'STMS_DI_22001', 'STMS_DI_FIC_24002', 'TDC_PHD.FIC_21004', 'TDC_PHD.TI_21004', 'TDC_PHD.FI_21008', 'TDC_PHD.TI_21029', 'TDC_PHD.PIC_22059', 'TDC_PHD.FI_21012', 'TDC_PHD.TI_21036', 'TDC_PHD.PIC_21026', 'TDC_PHD.TI_21054', 'TDC_PHD.TI_22001', 'TDC_PHD.TI_24001'])
 
