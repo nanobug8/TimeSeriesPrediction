@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import csv
 
-raw_data = open('Desafio_VariablesControl_DCH2022_ultimo.csv')
+raw_data = open('Desafio_VariablesControl_DCH2022.csv')
 c7_data = open("Desafio_Contenido_C7_Total_11-2017_09-2021.csv")
 byp_data = open("Desafio_BencenoyPrecursoresTotal_11-2017_09-2021.csv")
 
